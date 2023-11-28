@@ -1,0 +1,125 @@
+
+.navbar{
+    height: 4rem;
+    width: 100vw;
+    max-width: 100rem;
+    margin: 1rem auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.material-symbols-outlined {
+    font-size: 3rem;
+    overflow-y: hidden;
+    color: white;
+}
+
+.logoImg{
+    object-fit:cover;
+    width: 3rem;
+}
+
+.desktopMenu{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    overflow-x: hidden;
+}
+
+.desktopMenuNavLink{
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    margin: 0 0.5rem;
+    
+}
+
+.active.desktopMenuNavLink {
+    color: rgb(30, 30, 30);
+    border-radius: 1rem;
+    background-color: white;
+}
+
+.desktopMenuNavLink:hover {
+    color: rgb(30, 30, 30);
+    border-radius: 1rem;
+    background-color: white;
+}
+
+
+.mobileMenuVisible {
+    display: flex;
+    position: absolute;
+    top: 4rem;
+    right: 1rem;
+    font-size: 2rem;
+    flex-direction: column;
+    border-radius: 1rem;
+    justify-content: center;
+    border: solid 2px white;
+    padding: 5px;
+    text-align: center;
+}
+
+.openMobileMenuButton {
+    border: none;
+}
+
+.mobileMenuTriangle {
+    height: 0;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom-color: white;
+    position: absolute;
+    top: -1.3rem;
+    right: 0.8rem;
+}
+
+
+.mobileMenuNavLink:hover {
+    color: rgb(30, 30, 30);
+    border-radius: 0.5rem;
+    background-color: white;
+    background-size: contain;
+}
+
+.mobileMenuNavLink {
+    width: 100%;
+    color: white;
+    border-radius: 2rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 1.5rem;
+    align-content: center;
+}
+
+.active.mobileMenuNavLink {
+    color: rgb(30, 30, 30);
+    border-radius: 0.5rem;
+    background-color: white;
+    background-size: contain;
+}
+
+
+
+
+.mobileMenuInvisible {
+    display: none;
+
+}
+
+.mobileMenu {
+    display: none;
+}
+
+@media screen and (max-width:800px) {
+    .desktopMenu{display:none;}
+    .mobileMenu{display: flex;}
+}
