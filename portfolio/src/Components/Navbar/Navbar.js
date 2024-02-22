@@ -8,15 +8,19 @@ const Navbar = () => {
     let [showBurgerMenu, setShowBurgerMenu] = useState(false);
     return (
         <div className="navbar">
-            <img src={logo} alt="Logo" className="logoImg"></img>
+            <div className="navbarContents">
+                <NavLink to="/" className="logoAndPortfolioText">
+                    <img src={logo} alt="Logo" className="logoImg"></img>
+                    <text className="portfolioText">Portfolio</text>
 
-            <div className="desktopMenu">
-                <NavLink to="/" className="desktopMenuNavLink">Home</NavLink>
-                <NavLink to="/about" className="desktopMenuNavLink">About Me</NavLink>
-                <NavLink to="/projects" className="desktopMenuNavLink">Projects</NavLink>
-                <NavLink to="/hobbies" className="desktopMenuNavLink">Hobbies</NavLink>
-                <NavLink to="/contact" className="desktopMenuNavLink">Contact</NavLink>
-            </div>
+                </NavLink>
+                    <div className="desktopMenu">
+                        <NavLink to="/" className="desktopMenuNavLink">Home</NavLink>
+                        <NavLink to="/about" className="desktopMenuNavLink">About Me</NavLink>
+                        <NavLink to="/projects" className="desktopMenuNavLink">Projects</NavLink>
+                        <NavLink to="/hobbies" className="desktopMenuNavLink">Hobbies</NavLink>
+                        <NavLink to="/contact" className="desktopMenuNavLink">Contact</NavLink>
+                </div>
 
             <div className="mobileMenu">
                 <button className="openMobileMenuButton" onClick={() => setShowBurgerMenu(!showBurgerMenu)}>
@@ -29,6 +33,7 @@ const Navbar = () => {
                 <NavLink to="/hobbies" className="mobileMenuNavLink">Hobbies</NavLink>
                 <NavLink to="/contact" className="mobileMenuNavLink">Contact</NavLink>
                 </div>
+            </div>
             </div>
         </div>
     )

@@ -1,9 +1,31 @@
 
 .navbar{
-    height: 4rem;
+    background-color: rgb(40, 40, 40);
+    border-bottom: 1px solid rgb(100, 100, 100);
+    position: sticky;
+    z-index: 20;
+    top: 0;
     width: 100vw;
-    max-width: 100rem;
-    margin: 1rem auto;
+
+}
+
+.logoAndPortfolioText{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.portfolioText{
+    color: rgb(100, 100, 100);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.navbarContents{
+    height: 4rem;
+    max-width: 120rem;
+    margin: auto auto;
     padding: 1rem 1rem;
     display: flex;
     align-items: center;
@@ -22,7 +44,7 @@
 
 .logoImg{
     object-fit:cover;
-    width: 3rem;
+    width: 2rem;
 }
 
 .desktopMenu{
@@ -67,6 +89,7 @@
     border: solid 2px white;
     padding: 5px;
     text-align: center;
+    background-color: rgb(40, 40, 40);
 }
 
 .openMobileMenuButton {
