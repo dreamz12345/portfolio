@@ -8,9 +8,27 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    background: rgb(30, 30, 30);
+    background: rgb(27, 29, 31);
     color: white;
     overflow: hidden;
     overflow-y: auto;
+
+
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+p{
+    color: rgb(129, 137, 146);
+}
+
+.pageContent{
+    margin: 1rem auto;
+    max-width: 90vw;
 }
 

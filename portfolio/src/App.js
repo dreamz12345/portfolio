@@ -5,6 +5,7 @@ import Contact from "../src/Pages/Contact"
 import Hobbies from "../src/Pages/Hobbies"
 import Projects from "../src/Pages/Projects"
 
+
 function App() {
   return (
     <div className="App">

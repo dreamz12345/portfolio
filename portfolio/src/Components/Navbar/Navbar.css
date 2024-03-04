@@ -1,12 +1,10 @@
 
 .navbar{
     background-color: rgb(40, 40, 40);
-    border-bottom: 1px solid rgb(100, 100, 100);
+    border-bottom: 1px solid rgb(60, 60, 60);
     position: sticky;
     z-index: 20;
     top: 0;
-    width: 100vw;
-
 }
 
 .logoAndPortfolioText{
@@ -17,14 +15,15 @@
 
 
 .portfolioText{
-    color: rgb(100, 100, 100);
+    color: white;
     font-size: 2rem;
     margin-left: 1rem;
+    font-weight: 100;
 }
 
 .navbarContents{
     height: 4rem;
-    max-width: 120rem;
+    max-width: 90vw;
     margin: auto auto;
     padding: 1rem 1rem;
     display: flex;
@@ -57,23 +56,28 @@
 .desktopMenuNavLink{
     font-size: 1.5rem;
     padding: 0.5rem;
-    border: none;
+    border: 1px inset transparent;
+    border-radius: 0.75rem;
     cursor: pointer;
     color: white;
     margin: 0 0.5rem;
-    
 }
 
 .active.desktopMenuNavLink {
-    color: rgb(30, 30, 30);
-    border-radius: 1rem;
-    background-color: white;
+    color: white;
+    border-radius: 0.75rem;
+    background-color: rgb(35, 35, 35);
+    background-size: contain;
+    border: 1px inset rgb(60, 60, 60);
+
 }
 
 .desktopMenuNavLink:hover {
-    color: rgb(30, 30, 30);
-    border-radius: 1rem;
-    background-color: white;
+    color: white;
+    border-radius: 0.75rem;
+    background-color: rgb(35, 35, 35);
+    background-size: contain;
+    border: inset 1px rgb(60, 60, 60);
 }
 
 
@@ -86,7 +90,7 @@
     flex-direction: column;
     border-radius: 1rem;
     justify-content: center;
-    border: solid 2px white;
+    border: solid 1px rgb(60, 60, 60);
     padding: 5px;
     text-align: center;
     background-color: rgb(40, 40, 40);
@@ -100,7 +104,7 @@
     height: 0;
     width: 0;
     border: 10px solid transparent;
-    border-bottom-color: white;
+    border-bottom-color: rgb(60, 60, 60);
     position: absolute;
     top: -1.3rem;
     right: 0.8rem;
@@ -124,10 +128,11 @@
 }
 
 .active.mobileMenuNavLink {
-    color: rgb(30, 30, 30);
-    border-radius: 0.5rem;
-    background-color: white;
+    color: white;
+    border-radius: 0.75rem;
+    background-color: rgb(35, 35, 35);
     background-size: contain;
+    border: 1px solid rgb(60, 60, 60);
 }
 
 
@@ -145,4 +150,5 @@
 @media screen and (max-width:800px) {
     .desktopMenu{display:none;}
     .mobileMenu{display: flex;}
+    .navbarContents{max-width: 100vw;}
 }

@@ -1,0 +1,26 @@
+
+.paragraph{
+    color: rgb(100, 100, 100);
+    display: flex;
+}
+
+.home{
+    min-height: 100%;
+}
+
+.softDev{
+    font-size: 4rem;
+    font-weight: 100;
+    margin-bottom: 5rem;
+}
+
+.topDiv{
+}
+
+.myName{
+    font-size: 3rem;
+    font-weight: 400;
+    border-bottom: 1px solid white;
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+}
