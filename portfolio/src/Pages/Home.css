@@ -1,26 +1,41 @@
 
-.paragraph{
-    color: rgb(100, 100, 100);
-    display: flex;
-}
+
 
 .home{
     min-height: 100%;
 }
 
-.softDev{
-    font-size: 4rem;
-    font-weight: 100;
+.helloText{
+    height: 80vh;
     margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
 }
 
-.topDiv{
+.helloIm{
+    margin-top: 5rem;
+    font-size: 4rem;
+    font-weight: 400;
 }
 
 .myName{
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 10rem;
+    font-weight: 100;
     border-bottom: 1px solid white;
-    margin-top: 5rem;
-    padding-bottom: 1rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    line-height: 9rem;
+
 }
+
+.softDev{
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight: 400;
+
+}
+
+
