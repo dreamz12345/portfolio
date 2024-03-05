@@ -2,6 +2,7 @@ import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import "./Home.css"
 import myPhoto from "../Assets/myPhoto.jpg"
+import placeholderphoto from "../Assets/asdasd.jpg"
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -23,17 +24,10 @@ const Home = () => {
 
                     <div className="linksDiv">
                         <NavLink to="/projects" className="projectsLink">
-                            <img src={myPhoto} alt="projectsPhoto" className="projectsPhoto"></img>
-                            <span className="projectsLinkText">Check my personal projects here...</span>
+                            <div className="projectsPhotoDiv"><img src={myPhoto} alt="projectsPhoto" className="projectsPhoto"></img></div>
+                            <div className="projectsLinkTextDiv"><span className="projectsLinkText">Check my personal projects here...</span></div>
                         </NavLink>
-                        <div className="aboutMeLink">
-                            <span>Learn more about me</span>
-                            <img src={myPhoto} alt="aboutMePhoto" className="aboutMePhoto"></img>
-                        </div>
-                        <div className="hobbiesLink">
-                            <img src={myPhoto} alt="hobbiesPhoto" className="hobbiessPhoto"></img>
-                            <span>I do other stuff as well.</span>
-                        </div>
+
                     </div>
                 </div>
             </div>
