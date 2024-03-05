@@ -3,39 +3,97 @@
 
 .home{
     min-height: 100%;
+
 }
 
+
+
+
+
+.homeTopContent{
+    display: flex;
+    margin: 5rem auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
 .helloText{
-    height: 80vh;
-    margin-bottom: 5rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    white-space: nowrap;
+    
 
 
+}
+
+.myPhotoDiv{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
 }
 
 .helloIm{
-    margin-top: 5rem;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 400;
+    
 }
 
 .myName{
-    font-size: 10rem;
+    font-size: 4rem;
     font-weight: 100;
-    border-bottom: 1px solid white;
-    padding-bottom: 4rem;
-    padding-top: 2rem;
-    line-height: 9rem;
 
 }
 
 .softDev{
-    margin-top: 2rem;
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 400;
 
+}
+
+.myPhoto{
+    object-fit: cover;
+    width: 30rem;
+
+}
+
+
+.linksDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.projectsLink{
+    display: flex;
+    margin-bottom: 5rem;
+    justify-content: space-between;
+}
+
+.projectsLinkText{
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem;
+    justify-content: center;
+}
+
+
+.projectsPhoto {
+    display: flex;
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+
+
+@media screen and (max-width:1050px) {
+    .helloText{white-space: break-spaces;}
 }
 
 

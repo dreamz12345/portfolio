@@ -23,7 +23,7 @@
 
 .navbarContents{
     height: 4rem;
-    max-width: 90vw;
+    max-width: 80vw;
     margin: auto auto;
     padding: 1rem 1rem;
     display: flex;
@@ -147,7 +147,7 @@
     display: none;
 }
 
-@media screen and (max-width:950px) {
+@media screen and (max-width:1050px) {
     .desktopMenu{display:none;}
     .mobileMenu{display: flex;}
     .navbarContents{max-width: 100vw;}

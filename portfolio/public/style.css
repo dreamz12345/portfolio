@@ -29,6 +29,9 @@ p{
 
 .pageContent{
     margin: 1rem auto;
-    max-width: 90vw;
+    max-width: 70vw;
 }
 
+@media screen and (max-width:1050px) {
+    .pageContent{max-width: 90vw;}
+}
