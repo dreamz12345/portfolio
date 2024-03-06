@@ -3,54 +3,38 @@
     min-height: 100%;
 }
 
-.homeTopContent{
-    display: flex;
-    margin: 3rem auto;
-    overflow-y: hidden;
-    overflow-x: hidden;
-    padding-bottom: 3rem;
-    border-bottom: 1px solid rgb(100, 100, 100);
-}
-
 .helloText{
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     white-space: nowrap;
+    color: white;
 }
 
-.myPhotoDiv{
-    display: flex;
-    width: 50%;
-    align-items: center;
-    justify-content: center;
-    z-index: -1;
-}
 
 .helloIm{
     font-size: 2rem;
     font-weight: 400;
-    
+    white-space: nowrap;
+    color: white;
 }
 
 .myName{
     font-size: 4rem;
-    font-weight: 100;
-
+    font-weight: 400;
 }
 
 .softDev{
-    font-size: 2rem;
-    font-weight: 400;
-
+    font-size: 1.8rem;
+    font-weight: 100;
+    white-space: nowrap;
+    color: rgb(221, 221, 221);
 }
 
-.myPhoto{
-    object-fit: cover;
-    width: 30rem;
-
-
+.softDevWrap{
+    font-size: 1.8rem;
+    font-weight: 100;
 }
 
 
@@ -60,35 +44,61 @@
     width: 100%;
     justify-content: space-between;
     margin: 3rem auto;
+    border-bottom: 1px solid rgb(100, 100, 100);
 }
 
 .projectsLink{
     display: flex;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     justify-content: space-between;
     overflow-x: hidden;
+
+
 }
 
-.projectsLinkText{
+.projectsLinkTextDivLeft{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.projectsLinkTextDivRight{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.projectsLinkTextRight{
     display: flex;
     font-size: 3rem;
     justify-content: right;
-    align-items: flex-end;
     text-align: right;
     color: white;
     font-weight: 100;
 }
 
 
-.projectsLinkTextDiv{
-    width: 50%;
+.projectsLinkTextLeft{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-size: 3rem;
+    justify-content: left;
+    color: white;
+    font-weight: 100;
 }
 
+.projectsPhotoDivLeft{
+    display: flex;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: right;
+    z-index: -1;
+}
 
-.projectsPhotoDiv{
+.projectsPhotoDivRight{
     display: flex;
     width: 50%;
     align-items: flex-start;
@@ -99,6 +109,9 @@
     object-fit: cover;
     width: 30rem;
 }
+
+
+
 
 
 @media screen and (max-width:1050px) {
