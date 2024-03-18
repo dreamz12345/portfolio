@@ -55,29 +55,23 @@
 
 .desktopMenuNavLink{
     font-size: 1.5rem;
+    font-weight: 600;
     padding: 0.5rem;
-    border: 1px inset transparent;
-    border-radius: 0.75rem;
+    border: 2px inset transparent;
     cursor: pointer;
     color: white;
     margin: 0 0.5rem;
 }
 
 .active.desktopMenuNavLink {
-    color: white;
-    border-radius: 0.75rem;
-    background-color: rgb(35, 35, 35);
-    background-size: contain;
-    border: 1px inset rgb(60, 60, 60);
+
+    border-bottom: 2px inset gray;
 
 }
 
 .desktopMenuNavLink:hover {
     color: white;
-    border-radius: 0.75rem;
-    background-color: rgb(35, 35, 35);
     background-size: contain;
-    border: inset 1px rgb(60, 60, 60);
 }
 
 

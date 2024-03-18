@@ -42,16 +42,16 @@
 }
 
 
-.linksDiv {
+.projectsLinksDiv {
     display: flex;
     flex-direction: column;
     width: 100%;
     justify-content: space-between;
     margin: 3rem auto;
-    border-bottom: 0px solid rgb(100, 100, 100);
+    border-bottom: 2px solid rgb(100, 100, 100);;
 }
 
-.homeLink{
+.projectsLink{
     display: flex;
     margin-bottom: 3rem;
     justify-content: space-between;
@@ -60,7 +60,7 @@
 
 }
 
-.homeLinkTextDivLeft{
+.projectsLinkTextDivLeft{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
     align-items: flex-start;
 }
 
-.homeLinkTextDivRight{
+.projectsLinkTextDivRight{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -76,9 +76,20 @@
     align-items: flex-end;
 }
 
-.homeLinkTextRight{
+.projectsLinkTextRight{
     display: flex;
-    font-size: 3rem;
+    font-size: 4rem;
+    justify-content: right;
+    text-align: right;
+    color: white;
+    font-weight: 400;
+    text-shadow: 2px 2px 3px rgb(27, 29, 31);
+}
+
+
+.projectsLinkTextRightMedium{
+    display: flex;
+    font-size: 2rem;
     justify-content: right;
     text-align: right;
     color: white;
@@ -87,7 +98,11 @@
 }
 
 
-.homeLinkTextLeft{
+
+
+
+
+.projectsLinkTextLeft{
     display: flex;
     font-size: 3rem;
     justify-content: left;
@@ -96,7 +111,7 @@
     text-shadow: 2px 2px 3px rgb(27, 29, 31);
 }
 
-.homePhotoDivLeft{
+.projectsPhotoDivLeft{
     display: flex;
     width: 50%;
     align-items: flex-end;
@@ -104,19 +119,31 @@
     z-index: -1;
 }
 
-.homePhotoDivRight{
+.projectsPhotoDivRight{
     display: flex;
     width: 50%;
     align-items: flex-start;
     z-index: -1;
 }
 
-.homePhoto {
+.projectsPhoto {
     object-fit: fill;
-    width: 40rem;
+    width: 30rem;
     min-width: 20rem;
+    border: 2px solid rgb(100, 100, 100);
 }
 
+
+.projectsTechnologiesUsed {
+    display: flex;
+
+}
+
+.technologiesUsedPhoto{
+    width: 3rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
 
 
 
@@ -124,5 +151,4 @@
 @media screen and (max-width:1050px) {
     .helloText{white-space: break-spaces;}
 }
-
 
