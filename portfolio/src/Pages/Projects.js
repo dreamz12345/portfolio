@@ -1,5 +1,6 @@
 import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
+import ScrollToTop from "../Components/scrollToTop";
 import "./Projects.css"
 import pongSquare from "../Assets/pong_square_size.jpg";
 import pythonLogo from "../Assets/python-logo-only.png";
@@ -12,6 +13,7 @@ import { NavLink } from "react-router-dom";
 const Projects = () => {
     return (
 <div className="page">
+    <ScrollToTop/>
             <div className="pageAboveFooter">
                 <Navbar />
                 <div className="pageContent">

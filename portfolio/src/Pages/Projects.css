@@ -1,47 +1,4 @@
 
-.home{
-    min-height: 100%;
-}
-
-.helloText{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    white-space: nowrap;
-    color: white;
-}
-
-
-.helloIm{
-    font-size: 2rem;
-    font-weight: 400;
-    white-space: nowrap;
-    color: white;
-    
-}
-
-.myName{
-    font-size: 4rem;
-    font-weight: 400;
-    text-shadow: 2px 2px 3px rgb(27, 29, 31);
-    
-}
-
-.softDev{
-    font-size: 1.8rem;
-    font-weight: 100;
-    white-space: nowrap;
-    color: rgb(221, 221, 221);
-    text-shadow: 2px 2px 3px rgb(27, 29, 31);
-}
-
-.softDevWrap{
-    font-size: 1.8rem;
-    font-weight: 100;
-}
-
-
 .projectsLinksDiv {
     display: flex;
     flex-direction: column;

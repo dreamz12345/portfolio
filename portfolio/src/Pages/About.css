@@ -1,1 +1,54 @@
 
+
+.aboutTopDiv {
+    display: flex;
+    margin: auto 5rem;
+    justify-content: center;
+    
+}
+
+.aboutMidDiv {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+
+.aboutTitleText {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.aboutLinkText {
+    color: cornflowerblue;
+}
+
+.aboutLinkText:hover {
+    border-bottom: 1px solid cornflowerblue;
+}
+
+
+.aboutTopText {
+    border-left: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+.aboutThinText {
+    font-size: 1.8rem;
+    font-weight: 100;
+}
+
+
+.aboutBoldText {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.aboutPortraitPhoto {
+    width: 20rem;
+}
