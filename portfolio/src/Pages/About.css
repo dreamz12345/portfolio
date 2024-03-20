@@ -18,10 +18,13 @@
     font-size: 3rem;
     font-weight: 400;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .aboutLinkText {
     color: cornflowerblue;
+    font-size: 2.4rem;
+    font-weight: 400;
 }
 
 .aboutLinkText:hover {
@@ -40,15 +43,17 @@
 .aboutThinText {
     font-size: 1.8rem;
     font-weight: 100;
+    color: rgb(200, 200, 200);
 }
 
 
 .aboutBoldText {
-    font-size: 2rem;
+    font-size: 2.4rem;
     font-weight: 600;
+    color: white;
 }
 
 
 .aboutPortraitPhoto {
-    width: 20rem;
+    width: 25rem;
 }
