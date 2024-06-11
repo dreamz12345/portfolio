@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.73e20a6c.css",
+    "main.js": "/portfolio/static/js/main.694bf48f.js",
+    "static/media/TT-SU2_700_samples_transparen_background.png": "/portfolio/static/media/TT-SU2_700_samples_transparen_background.bc005c53a9b181582d32.png",
+    "static/media/myPhoto.jpg": "/portfolio/static/media/myPhoto.9b5e12a84d5f9a298796.jpg",
+    "static/media/placeholder_portrait.png": "/portfolio/static/media/placeholder_portrait.bd6ca43e9bebc3731b04.png",
+    "static/media/arduino-logo.png": "/portfolio/static/media/arduino-logo.c323e7918e5d1017dab6.png",
+    "static/media/python-logo-only.png": "/portfolio/static/media/python-logo-only.632369df831d16241b59.png",
+    "static/media/pong_square_size.jpg": "/portfolio/static/media/pong_square_size.49ffa51f2e1cefb242ce.jpg",
+    "static/media/c++-logo.png": "/portfolio/static/media/c++-logo.83cf42848621b117688c.png",
+    "index.html": "/portfolio/index.html",
+    "main.73e20a6c.css.map": "/portfolio/static/css/main.73e20a6c.css.map",
+    "main.694bf48f.js.map": "/portfolio/static/js/main.694bf48f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73e20a6c.css",
+    "static/js/main.694bf48f.js"
+  ]
+}
