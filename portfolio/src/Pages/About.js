@@ -45,8 +45,8 @@ const About = () => {
                         <span className="aboutThinText">- Good personal culture, I understand and accept that sometimes I could be wrong and others can be right.</span>
                         <span className="aboutThinText">- When I write my code I always try to get done as much as possible in shortest possible time by focusing on functions and </span>
                         <span className="aboutThinText">- I believe that software development is about solving problems and correct mindset and less about what programming language or library I'm currently using.</span>
-                        <span className="aboutThinText">- </span>
-                        <span className="aboutThinText">- </span>
+                        <span className="aboutThinText"></span>
+                        <span className="aboutThinText"></span>
                     </div>
 
                     <div className="aboutBotDiv">
