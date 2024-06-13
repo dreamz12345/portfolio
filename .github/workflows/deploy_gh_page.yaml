@@ -1,0 +1,31 @@
+name: Deploy Gh-pages
+
+
+run-name: ${{ github.actor }} is learning GitHub Actions
+
+on:
+  push:
+    branches:
+      - ci
+
+jobs:
+  check-bats-version:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Install node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      #- run: npm install -g bats
+      #- run: bats -v
+      - name: Build portfolio
+        working-directory: ./portfolio
+        run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./portfolio/build
+      
