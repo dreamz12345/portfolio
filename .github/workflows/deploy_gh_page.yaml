@@ -35,7 +35,8 @@ jobs:
       - name: Copy site to special dir
         run: |
           mkdir _site
-          cp -R portfolio/build/ _site/
+          cp -R portfolio/build/* _site/
+          ls -R
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
