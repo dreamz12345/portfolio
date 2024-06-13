@@ -20,7 +20,7 @@ const Home = () => {
                             <div className="projectsLinkTextDivLeft">
                                 <div className="helloText">
                                     <span className="softDev">Hello, I'm</span>
-                                    <span className="myName">Łukasz Spychała </span>
+                                    <span className="myName">Łukasz Spychała!! </span>
                                     <span className="softDev">I'm aspiring </span>
                                     <span className="helloIm">Software Developer</span>
                                     <span className="softDev">Click here to learn </span>
