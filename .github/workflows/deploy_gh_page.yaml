@@ -8,6 +8,9 @@ on:
     branches:
       - ci
 
+permissions:
+  contents: write
+
 jobs:
   check-bats-version:
     runs-on: ubuntu-22.04
