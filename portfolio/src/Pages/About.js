@@ -3,7 +3,6 @@ import Footer from "../Components/Footer/Footer";
 import ScrollToTop from "../Components/scrollToTop";
 import placeholder_portrait from "./../Assets/placeholder_portrait.png"
 import "./About.css";
-import { NavLink } from "react-router-dom";
 
 const About = () => {
     var python_projects = "https://github.com/dreamz12345/Python-Projects";
