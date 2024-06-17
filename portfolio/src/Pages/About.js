@@ -27,7 +27,8 @@ const About = () => {
                     
 
                     <div className="aboutMidDiv">
-                        <span className="aboutTitleText">Skills:</span>
+                        <span className="aboutTitleText">Skills</span>
+                        <span className="aboutBoldText">Hard Skills:</span>
                         <span className="aboutThinText">- Programming languages: <a href={python_projects} className="aboutLinkText">Python</a> but I also dabbed a bit in <a href={c_projects} className="aboutLinkText"> C++</a> and <a href={react_projects} className="aboutLinkText"> React JSX</a></span>
                         <span className="aboutThinText">- I'm not opposed to learn new technologies and tools.</span>
                         <span className="aboutThinText">- I can create unit tests for my code.</span>

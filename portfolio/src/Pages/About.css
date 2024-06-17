@@ -2,28 +2,29 @@
 
 .aboutTopDiv {
     display: flex;
-    margin: auto 5rem;
     justify-content: center;
-    
+    padding: 1vmax;
 }
 
 .aboutMidDiv {
     display: flex;
     justify-content: left;
     flex-direction: column;
-    margin: 3rem auto;
+    padding: 1vmax;
 }
 
 .aboutTitleText {
-    font-size: 3rem;
+    font-size: 2.5vmax;
     font-weight: 400;
-    margin-bottom: 1rem;
+    margin-bottom: 1vmax;
     margin-top: 1rem;
+    border-bottom: 0.1vmax cornflowerblue solid;
+    padding-bottom: 4px;
 }
 
 .aboutLinkText {
     color: cornflowerblue;
-    font-size: 2.4rem;
+    font-size: 1.5vmax;
     font-weight: 400;
 }
 
@@ -33,27 +34,28 @@
 
 
 .aboutTopText {
-    border-left: 1px solid gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 4rem;
+    margin: 1vmax;
 }
 
 .aboutThinText {
-    font-size: 1.8rem;
+    font-size: 1.5vmax;
     font-weight: 100;
     color: rgb(200, 200, 200);
 }
 
 
 .aboutBoldText {
-    font-size: 2.4rem;
+    font-size: 1.7vmax;
     font-weight: 600;
-    color: white;
+    color: rgb(220, 220, 220);
 }
 
 
 .aboutPortraitPhoto {
-    width: 25rem;
+    width: 50%;
+    max-width: 40%;
+    margin: 1vmax;
 }

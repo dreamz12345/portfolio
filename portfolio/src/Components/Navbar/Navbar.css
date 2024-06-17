@@ -32,7 +32,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 5;
 }
 
 .material-symbols-outlined {
@@ -84,7 +84,7 @@
     flex-direction: column;
     border-radius: 1rem;
     justify-content: center;
-    border: solid 1px rgb(60, 60, 60);
+    border: solid 1px cornflowerblue;
     padding: 5px;
     text-align: center;
     background-color: rgb(40, 40, 40);
@@ -98,7 +98,7 @@
     height: 0;
     width: 0;
     border: 10px solid transparent;
-    border-bottom-color: rgb(60, 60, 60);
+    border-bottom-color: cornflowerblue;
     position: absolute;
     top: -1.3rem;
     right: 0.8rem;
