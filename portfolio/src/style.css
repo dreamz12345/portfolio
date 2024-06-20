@@ -28,8 +28,12 @@ p{
 }
 
 .pageContent{
-    margin: 2rem auto;
+    margin: 1.5rem auto;
     max-width: 70vw;
+    background-color: rgb(31, 33, 35);
+    padding: 1rem 1rem;
+    border: 0.1vmax cornflowerblue solid;
+    border-radius: 2rem;
 }
 
 @media screen and (max-width:1050px) {

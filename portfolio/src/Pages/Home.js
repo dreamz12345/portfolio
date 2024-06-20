@@ -2,6 +2,7 @@ import Footer from "../Components/Footer/Footer";
 import Navbar from "../Components/Navbar/Navbar";
 import ScrollToTop from "../Components/scrollToTop";
 import "./Home.css"
+import "./Projects.css"
 import myPhoto from "../Assets/placeholder_portrait.png"
 import pongSquare from "../Assets/pong_square_size.jpg"
 import renderPhoto from "../Assets/TT-SU2_700_samples_transparen_background.png"
@@ -17,18 +18,14 @@ const Home = () => {
 
                     <div className="homeLinksDiv">
                         <NavLink to={"/about"} className="homeLink">
-                            <div className="projectsLinkTextDivLeft">
-                                <div className="helloText">
-                                    <span className="softDev">Hello, I'm</span>
-                                    <span className="myName">Łukasz Spychała!! </span>
-                                    <span className="softDev">I'm aspiring </span>
-                                    <span className="helloIm">Software Developer</span>
-                                    <span className="softDev">Click here to learn </span>
-                                    <span className="softDev">more about me.</span>
+                        <div className="aboutTopDiv">
+                            <img className="aboutPortraitPhoto" alt="My Portrait" src={myPhoto}></img>
+                                <div className="aboutTopText">
+                                    <span className="aboutThinText">My name is <span className="aboutBoldText">Łukasz Spychała.</span></span>
+                                    <span className="aboutThinText">I'm aspiring <span className="aboutBoldText">software developer</span></span>
+                                    <span className="aboutThinText">you can <span className="aboutBoldText">click here</span></span>
+                                    <span className="aboutThinText">to learn more <span className="aboutBoldText">About Me</span></span>
                                 </div>
-                            </div>
-                            <div className="homePhotoDivLeft">
-                                <img src={myPhoto} alt="myPhoto" className="portraitPhoto"></img>
                             </div>
                         </NavLink>
                     </div>
