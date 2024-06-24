@@ -29,11 +29,14 @@ const About = () => {
                     <div className="aboutMidDiv">
                         <span className="aboutTitleText">Skills</span>
                         <span className="aboutBoldText">Hard Skills:</span>
-                        <span className="aboutThinText">- Programming languages: <a href={python_projects} className="aboutLinkText">Python</a> but I also dabbed a bit in <a href={c_projects} className="aboutLinkText"> C++</a> and <a href={react_projects} className="aboutLinkText"> React JSX</a></span>
-                        <span className="aboutThinText">- I'm not opposed to learn new technologies and tools.</span>
-                        <span className="aboutThinText">- I can create unit tests for my code.</span>
-                        <span className="aboutThinText">- I have wide range of hobbies: 3D modeling, 2D digital art, design so I have good understanding of color and composition that may come in handy in some projects.</span>
-                        <span className="aboutThinText">- Good English proficiency.</span>
+                        <ul>
+                            <li className="aboutThinText"><text className="aboutMidText">Programming: </text>Mainly <a href={python_projects} className="aboutLinkText">Python</a> but also a little bit of <a href={c_projects} className="aboutLinkText"> C++</a> and <a href={react_projects} className="aboutLinkText"> React JSX</a></li>
+                            <li className="aboutThinText"><text className="aboutMidText">Commitment to quality: </text>I always try to find the best possible solutions before I start to code.</li>
+                            <li className="aboutThinText"><text className="aboutMidText">Creating with future in mind: </text>I believe that documenation and good code design is very important to make sure my code can be understandable and reusable in the future. </li>
+                            <li className="aboutThinText">I can create unit tests for my code.</li>
+                            <li className="aboutThinText">I have wide range of hobbies: 3D modeling, 2D digital art, design so I have good understanding of color and composition that may come in handy in some projects.</li>
+                            <li className="aboutThinText">Good English proficiency.</li>
+                        </ul>
                         <span className="aboutTitleText">How do I write my code:</span>
                         <span className="aboutThinText">- I'm always looking for improvement of the code but I'm not going to force the company to do things my way.</span>
                         <span className="aboutThinText">- I'm willing to put a lot of effort into writing documenation for my code because I believe that it's very important to ensure that the code is reusable and understandable by me and other software developers in the future.</span>

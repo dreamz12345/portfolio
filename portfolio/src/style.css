@@ -23,6 +23,18 @@ body{
     min-height: 100vh;
 }
 
+
+ul {
+    padding-left: 2vmax;
+    
+}
+
+li {
+    margin-bottom: 1vmax;
+    margin-top: 1vmax;
+}
+
+
 p{
     color: rgb(129, 137, 146);
 }
