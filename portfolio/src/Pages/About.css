@@ -16,10 +16,9 @@
 .aboutTitleText {
     font-size: 2.5vmax;
     font-weight: 400;
-    margin-bottom: 1vmax;
-    margin-top: 1rem;
     border-bottom: 0.1vmax cornflowerblue solid;
     padding-bottom: 4px;
+    margin-top: 1vmax;
 }
 
 .aboutLinkText {
@@ -40,25 +39,24 @@
     margin: 1vmax;
 }
 
-.aboutThinText {
+.thinTxt {
     font-size: 1.5vmax;
     font-weight: 100;
     color: rgb(200, 200, 200);
 }
 
-.aboutMidText {
+.midTxt {
     font-size: 1.5vmax;
     font-weight: 600;
     color: rgb(220, 220, 220);
 }
 
 
-
-
-.aboutBoldText {
+.boldTxt {
     font-size: 1.7vmax;
     font-weight: 600;
     color: rgb(220, 220, 220);
+    margin-top: 1vmax;
 }
 
 
