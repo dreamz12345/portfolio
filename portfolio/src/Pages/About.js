@@ -46,28 +46,23 @@ const About = () => {
                             <li className="thinTxt"><text className="midTxt">Grow-mindset: </text>I easliy find and learn from courses, tutorials, and quicktips which allows me to grow fast.</li>
                             <li className="thinTxt"><text className="midTxt">Personal culture: </text>I do understand that everyone deserves respect and anyone can be wrong - myself included.</li>
                             <li className="thinTxt"><text className="midTxt">Team player: </text>Good atmosphere in a team is important to me.</li>
-                            <li className="thinTxt"><text className="midTxt">I'm not stubborn: </text>I easliy adapts to new tools and work ethic in the new work environment.</li>
                         </ul>
 
                         <span className="aboutTitleText">How do I write my code:</span>
                         <ul>
                             <li className="thinTxt"><text className="midTxt">High Quality: </text>I develop the code in small incremental steps making sure it always works.</li>
                             <li className="thinTxt"><text className="midTxt">Incrementally: </text>I always develop in a way that will allow to easliy expend on created solutions in the future.</li>
-                            <li className="thinTxt"><text className="midTxt">Continous Improvement: </text>Keeping functions as independend as possible makes refactoring easy and ensures that the code is flexible and clear.</li>
-                            <li className="thinTxt"><text className="midTxt">Easy to Read: </text>I always try to oblige with community set code formating standards. I try to keep every single line of code as short and simple as possible which gives high readablity and easy debugging if needed.</li>
+                            <li className="thinTxt"><text className="midTxt">With future in mind: </text>Keeping functions as independend as possible makes refactoring easy and ensures that the code is flexible and clear.</li>
+                            <li className="thinTxt"><text className="midTxt">Easy to Read: </text>I always try to oblige with community set code formating standards. I try to keep every single line of code as short and simple as possible which gives high readability and easy debugging if needed.</li>
                         </ul>
 
-                        <span className="aboutTitleText">What is my mindset when I work on a project:</span>
-                        <span className="thinTxt">- I'm always looking for improvement of the code but I'm not going to force the company to do things my way.</span>
-                        <span className="thinTxt">- Team player.</span>
-                        <span className="thinTxt">- Finishing project and client satisfaction is the most important thing to keep the company afloat.</span>
-                        <span className="thinTxt">- Easliy adapts to new tools and work ethic in new working environment.</span>
-                        <span className="thinTxt">- I'm open to do courses to learn about technologies and libraries that your company use.</span>
-                        <span className="thinTxt">- Good personal culture, I understand and accept that sometimes I could be wrong and others can be right.</span>
-                        <span className="thinTxt">- When I write my code I always try to get done as much as possible in shortest possible time by focusing on functions and </span>
-                        <span className="thinTxt">- I believe that software development is about solving problems and correct mindset and less about what programming language or library I'm currently using.</span>
-                        <span className="thinTxt"></span>
-                        <span className="thinTxt"></span>
+                        <span className="aboutTitleText">What is my mindset:</span>
+                        <ul>
+                            <li className="thinTxt"><text className="midTxt">Not stubborn: </text>I easliy adapt to new tools and work ethic in the new work environment.</li>
+                            <li className="thinTxt"><text className="midTxt">Focus on the right thing: </text>Finishing project and client satisfaction is the most important thing to me.</li>
+                            <li className="thinTxt"><text className="midTxt">Flexible: </text>I'm open to do courses to learn about technologies and libraries that your company use.</li>
+                            <li className="thinTxt"><text className="midTxt">Continous Improvement: </text>I'm always looking for improvement of the code but I'm not going to force the company to do things my way.</li>
+                        </ul>
                     </div>
 
                     <div className="aboutBotDiv">
