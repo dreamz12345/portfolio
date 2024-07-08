@@ -5,6 +5,7 @@ import "./Home.css";
 import "./Projects.css";
 import myPhoto from "../Assets/placeholder_portrait.png";
 import pongSquare from "../Assets/pong_square_size.jpg";
+import aboutSquare from "../Assets/about_square_size.jpg";
 import renderPhoto from "../Assets/TT-SU2_700_samples_transparen_background.png";
 import { NavLink } from "react-router-dom";
 
@@ -34,19 +35,10 @@ const Home = () => {
                         <div className="homeDivOuter">
 
                             <div className="homeDivMid">
-                                <NavLink to="/projects">
+                                <NavLink to="/about">
                                     <div className="homeDivInner">
-                                        <span className="boldTxt">Check my personal projects here</span>
-                                        <img src={pongSquare} alt="projectsPhoto" className="homePhoto"></img>
-                                    </div>
-                                </NavLink>
-                            </div>
-
-                            <div className="homeDivMid">
-                                <NavLink to="/projects">
-                                    <div className="homeDivInner">
-                                        <span className="boldTxt">Check my personal projects here</span>
-                                        <img src={pongSquare} alt="projectsPhoto" className="homePhoto"></img>
+                                        <span className="boldTxt">About Me</span>
+                                        <img src={aboutSquare} alt="aboutPhoto" className="homePhoto"></img>
                                     </div>
                                 </NavLink>
                             </div>
@@ -68,6 +60,17 @@ const Home = () => {
                                     </div>
                                 </NavLink>
                             </div>
+
+
+                            <div className="homeDivMid">
+                                <NavLink to="/projects">
+                                    <div className="homeDivInner">
+                                        <span className="boldTxt">Contact</span>
+                                        <img src={pongSquare} alt="projectsPhoto" className="homePhoto"></img>
+                                    </div>
+                                </NavLink>
+                            </div>
+
 
 
 

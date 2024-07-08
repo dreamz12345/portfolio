@@ -32,7 +32,7 @@ const Projects = () => {
                             </div>
                             <div className="projectsLinkTextDivRight">
                                 <span className="projectsLinkTextRight">All of my Projects</span>
-                                <span className="projectsLinkTextRightMedium">You can see them directly at my GitHub Page.</span>
+                                <span className="projectsLinkTextRightMedium">You can see them directly on my GitHub Page.</span>
                             </div>
                         </a>
                     </div>
