@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: rgb(42, 41, 51);
+    background-color: rgb(27, 27, 31);
     border-bottom: 1px solid cornflowerblue;
     position: sticky;
     z-index: 20;
@@ -87,7 +87,7 @@
     border: solid 1px cornflowerblue;
     padding: 5px;
     text-align: center;
-    background-color: rgb(42, 41, 51);
+    background-color: rgb(27, 27, 31);
 
 }
 
