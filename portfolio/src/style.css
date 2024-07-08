@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    background: rgb(27, 29, 31);
+    background: rgb(27, 27, 31);
     color: white;
     overflow: hidden;
     overflow-y: auto;
@@ -40,10 +40,10 @@ p{
 }
 
 .pageContent{
-    margin: 1.5rem auto;
-    max-width: 70vw;
+    margin: 2vmax auto;
+    max-width: 80vw;
 
-    padding: 1rem 1rem;
+    padding: 1vmax 1vmax;
     
     border-radius: 2rem;
 }

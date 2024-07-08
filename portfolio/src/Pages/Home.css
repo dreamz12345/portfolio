@@ -74,7 +74,7 @@
 }
 
 .homeLinksDiv {
-    padding-bottom: 3rem;
+    padding-bottom: 2vmax;
 }
 
 
@@ -131,11 +131,11 @@
 
 .homePhoto {
 
-    width: 30vmax;
-    height: 30vmax;
+    width: 35vmax;
+    height: 35vmax;
     object-fit: cover;
-    border: 0.1vmax solid cornflowerblue;
-    border-radius: 2rem;
+    border: 0.14vmax solid cornflowerblue;
+    border-radius: 2vmax;
     margin-top: 1rem;
 
 }

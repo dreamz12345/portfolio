@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(42, 41, 51);
     border-bottom: 1px solid cornflowerblue;
     position: sticky;
     z-index: 20;
@@ -87,7 +87,8 @@
     border: solid 1px cornflowerblue;
     padding: 5px;
     text-align: center;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(42, 41, 51);
+
 }
 
 .openMobileMenuButton {
@@ -124,7 +125,7 @@
 .active.mobileMenuNavLink {
     color: white;
     border-radius: 0.75rem;
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(28, 27, 35);
     background-size: contain;
     border: 1px inset rgb(60, 60, 60);
 }

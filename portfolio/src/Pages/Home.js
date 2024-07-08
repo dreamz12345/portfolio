@@ -39,6 +39,7 @@ const Home = () => {
                                     <div className="homeDivInner">
                                         <span className="boldTxt">About Me</span>
                                         <img src={aboutSquare} alt="aboutPhoto" className="homePhoto"></img>
+                              
                                     </div>
                                 </NavLink>
                             </div>
