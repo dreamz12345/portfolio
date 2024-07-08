@@ -3,11 +3,12 @@ import Navbar from "../Components/Navbar/Navbar";
 import ScrollToTop from "../Components/scrollToTop";
 import "./Home.css";
 import "./Projects.css";
-import myPhoto from "../Assets/placeholder_portrait.png";
+import myPhoto from "../Assets/placeholder_portrait4.png";
 import pongSquare from "../Assets/pong_square_size.jpg";
 import aboutSquare from "../Assets/about_square_size.jpg";
 import renderPhoto from "../Assets/TT-SU2_700_samples_transparen_background.png";
 import { NavLink } from "react-router-dom";
+
 
 const Home = () => {
     return (

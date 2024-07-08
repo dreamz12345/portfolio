@@ -1,7 +1,7 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import ScrollToTop from "../Components/scrollToTop";
-import placeholder_portrait from "./../Assets/placeholder_portrait.png"
+import placeholder_portrait from "./../Assets/placeholder_portrait4.png"
 import "./About.css";
 
 const About = () => {
