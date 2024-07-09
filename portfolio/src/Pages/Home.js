@@ -39,7 +39,7 @@ const Home = () => {
                                 <NavLink to="/about">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">About Me</span>
-                                        <img src={aboutSquare} alt="aboutPhoto" className="homePhoto"></img>
+                                        <span className="homePhotoTxt">CLick here to learn more about me.</span>
                               
                                     </div>
                                 </NavLink>

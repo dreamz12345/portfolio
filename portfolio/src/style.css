@@ -8,10 +8,10 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    background: rgb(27, 27, 31);
     color: white;
     overflow: hidden;
     overflow-y: auto;
+    background: rgb(18, 18, 23);
 
 
 }
@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+
 }
 
 
@@ -40,12 +41,12 @@ p{
 }
 
 .pageContent{
-    margin: 2vmax auto;
+    margin: 1rem auto;
     max-width: 80vw;
-
+    background: rgb(27, 27, 31);
     padding: 1vmax 1vmax;
     
-    border-radius: 2rem;
+    border-radius: 1vmax;
 }
 
 @media screen and (max-width:1050px) {

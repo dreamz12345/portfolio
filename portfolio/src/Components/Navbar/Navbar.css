@@ -125,9 +125,8 @@
 .active.mobileMenuNavLink {
     color: white;
     border-radius: 0.75rem;
-    background-color: rgb(28, 27, 35);
     background-size: contain;
-    border: 1px inset rgb(60, 60, 60);
+    border: 0.2vmax solid cornflowerblue;
 }
 
 

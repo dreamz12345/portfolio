@@ -48,6 +48,7 @@
     align-items: center;
 
 
+
     
 }
 
@@ -129,14 +130,32 @@
     z-index: 3;
 }
 
-.homePhoto {
-
-    width: 35vmax;
-    height: 35vmax;
+.homePhotoTxt {
+    background: rgb(18, 18, 23);
+    width: 33vmax;
+    height: 33vmax;
+    justify-content: center;
+    align-content: center;
+    display: grid;
     object-fit: cover;
     border: 0.14vmax solid cornflowerblue;
     border-radius: 2vmax;
     margin-top: 1rem;
+
+    font-size: 1.7vmax;
+    font-weight: 600;
+    color: rgb(220, 220, 220);
+}
+
+.homePhoto {
+
+    width: 33vmax;
+    height: 33vmax;
+    object-fit: cover;
+    border: 0.14vmax solid cornflowerblue;
+    border-radius: 2vmax;
+    margin-top: 1rem;
+    background: rgb(18, 18, 23);
 
 }
 
@@ -151,6 +170,7 @@
     object-fit: fill;
     width: 30rem;
     min-width: 20rem;
+
 
 }
 
