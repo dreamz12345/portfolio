@@ -6,6 +6,7 @@ import "./Projects.css";
 import myPhoto from "../Assets/placeholder_portrait4.png";
 import pongSquare from "../Assets/pong_square_size.jpg";
 
+import pongVideo from "../Assets/pong_animation0000-0120.mp4"
 import renderPhoto from "../Assets/TT-SU2_700_samples_transparen_background.png";
 import { NavLink } from "react-router-dom";
 
@@ -32,6 +33,7 @@ const Home = () => {
                         </NavLink>
                     </div>
 
+
                     
                         <div className="homeDivOuter">
 
@@ -39,7 +41,7 @@ const Home = () => {
                                 <NavLink to="/about">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">About Me</span>
-                                        <span className="homePhotoTxt">CLick here to learn more about me.</span>
+                                        <span className="homePhotoTxt">Click here to learn more about me.</span>
                               
                                     </div>
                                 </NavLink>
@@ -49,7 +51,7 @@ const Home = () => {
                                 <NavLink to="/projects">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">Projects</span>
-                                        <img src={pongSquare} alt="projectsPhoto" className="homePhoto"></img>
+                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
                                     </div>
                                 </NavLink>
                             </div>
@@ -68,7 +70,7 @@ const Home = () => {
                                 <NavLink to="/projects">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">Contact</span>
-                                        <img src={pongSquare} alt="projectsPhoto" className="homePhoto"></img>
+                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
                                     </div>
                                 </NavLink>
                             </div>
