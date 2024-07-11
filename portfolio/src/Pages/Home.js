@@ -4,7 +4,6 @@ import ScrollToTop from "../Components/scrollToTop";
 import "./Home.css";
 import "./Projects.css";
 import myPhoto from "../Assets/placeholder_portrait4.png";
-import pongSquare from "../Assets/pong_square_size.jpg";
 
 import pongVideo from "../Assets/pong_animation0000-0120.mp4"
 import renderPhoto from "../Assets/TT-SU2_700_samples_transparen_background.png";
