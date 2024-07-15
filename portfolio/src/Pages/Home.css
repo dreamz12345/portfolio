@@ -41,24 +41,43 @@
     font-weight: 100;
 }
 
+.homeDivInner {
 
-.homeLinksDiv {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    justify-content: space-between;
-    margin: 3rem auto;
-    padding-bottom: 3rem;
-    border-bottom: 0px solid rgb(100, 100, 100);
+    align-items: center;
+
+
+
+    
 }
 
-.homeLink{
+.homeDivMid {
+  
     display: flex;
-    justify-content: space-between;
-    overflow-x: hidden;
+    margin: 1rem;
+    justify-items: center;
+
+    align-items: center;
+}
+
+
+.homeDivOuter {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+
 
 
 }
+
+.homeLinksDiv {
+    padding-bottom: 2vmax;
+}
+
 
 .homeLinkTextDivLeft{
     width: 50%;
@@ -101,20 +120,43 @@
     width: 50%;
     align-items: flex-end;
     justify-content: right;
-    z-index: -1;
+    z-index: 3;
 }
 
 .homePhotoDivRight{
     display: flex;
     width: 50%;
     align-items: flex-start;
-    z-index: -1;
+    z-index: 3;
+}
+
+.homePhotoTxt {
+    background: rgb(18, 18, 23);
+    width: 33vmax;
+    height: 33vmax;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    object-fit: cover;
+    border: 0.14vmax solid cornflowerblue;
+    border-radius: 2vmax;
+    margin-top: 1rem;
+
+    font-size: 1.7vmax;
+    font-weight: 600;
+    color: rgb(220, 220, 220);
 }
 
 .homePhoto {
-    object-fit: fill;
-    width: 40rem;
-    min-width: 20rem;
+
+    width: 33vmax;
+    height: 33vmax;
+    object-fit: cover;
+    border: 0.14vmax solid cornflowerblue;
+    border-radius: 2vmax;
+    margin-top: 1rem;
+    background: rgb(18, 18, 23);
+
 }
 
 .pongPhoto {
@@ -126,8 +168,9 @@
 
 .portraitPhoto {
     object-fit: fill;
-    width: 40rem;
+    width: 30rem;
     min-width: 20rem;
+
 
 }
 

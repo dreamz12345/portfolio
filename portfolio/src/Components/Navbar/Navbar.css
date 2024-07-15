@@ -1,6 +1,6 @@
 
 .navbar{
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(27, 27, 31);
     border-bottom: 1px solid cornflowerblue;
     position: sticky;
     z-index: 20;
@@ -32,7 +32,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 5;
 }
 
 .material-symbols-outlined {
@@ -84,10 +84,11 @@
     flex-direction: column;
     border-radius: 1rem;
     justify-content: center;
-    border: solid 1px rgb(60, 60, 60);
+    border: solid 1px cornflowerblue;
     padding: 5px;
     text-align: center;
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(27, 27, 31);
+
 }
 
 .openMobileMenuButton {
@@ -98,7 +99,7 @@
     height: 0;
     width: 0;
     border: 10px solid transparent;
-    border-bottom-color: rgb(60, 60, 60);
+    border-bottom-color: cornflowerblue;
     position: absolute;
     top: -1.3rem;
     right: 0.8rem;
@@ -124,9 +125,8 @@
 .active.mobileMenuNavLink {
     color: white;
     border-radius: 0.75rem;
-    background-color: rgb(35, 35, 35);
     background-size: contain;
-    border: 1px inset rgb(60, 60, 60);
+    border: 0.2vmax solid cornflowerblue;
 }
 
 
