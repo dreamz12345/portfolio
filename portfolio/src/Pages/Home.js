@@ -50,13 +50,13 @@ const Home = () => {
                                 <NavLink to="/projects">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">Projects</span>
-                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
+                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" loop autoPlay muted />
                                     </div>
                                 </NavLink>
                             </div>
 
                             <div className="homeDivMid">
-                                <NavLink to="/projects">
+                                <NavLink to="/hobbies">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">Hobbies</span>
                                         <img src={renderPhoto} alt="projectsPhoto" className="homePhoto"></img>

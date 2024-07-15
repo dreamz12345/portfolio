@@ -36,16 +36,13 @@ li {
 }
 
 
-p{
-    color: rgb(129, 137, 146);
-}
 
 .pageContent{
     margin: 1rem auto;
     max-width: 80vw;
     background: rgb(27, 27, 31);
     padding: 1vmax 1vmax;
-    
+
     border-radius: 1vmax;
 }
 

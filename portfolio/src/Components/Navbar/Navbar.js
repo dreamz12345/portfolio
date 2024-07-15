@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="navbarContents">
                 <NavLink to="/" className="logoAndPortfolioText">
                     <img src={logo} alt="Logo" className="logoImg"></img>
-                    <text className="portfolioText">Portfolio</text>
+                    <p className="portfolioText">Portfolio</p>
 
                 </NavLink>
                     <div className="desktopMenu">
