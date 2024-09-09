@@ -105,9 +105,11 @@
 }
 
 .technologiesUsedPhoto{
-    width: 3rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
+    max-width: 1.7vmax;
+    margin-top: 1vmax;
+    margin-left: 1vmax;
+    display: inline;
+
 }
 
 .arduinoPhoto {

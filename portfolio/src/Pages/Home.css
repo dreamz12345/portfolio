@@ -159,6 +159,19 @@
 
 }
 
+.homePhotoFit {
+
+    width: 33vmax;
+    height: 33vmax;
+    object-fit: contain;
+    border: 0.14vmax solid cornflowerblue;
+    border-radius: 2vmax;
+    margin-top: 1rem;
+    background: rgb(18, 18, 23);
+
+}
+
+
 .pongPhoto {
     object-fit: fill;
     width: 30rem;
@@ -173,6 +186,8 @@
 
 
 }
+
+
 
 
 
