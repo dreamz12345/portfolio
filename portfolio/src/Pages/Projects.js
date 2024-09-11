@@ -44,7 +44,7 @@ const Projects = () => {
                                             <div className="homeDivInner">
                                                 <div className="projectsTechnologiesUsed">
                                                 <span className="boldTxt">Pong</span>
-                                                <img src={pythonLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
+                                                <img src={pythonLogo} alt="projectsPhoto" className="technologiesUsedPhoto marginLeft"></img>
                                                 </div>
                                                 <video src={pongVideo} alt="projectsPhoto" className="homePhotoFit" loop autoPlay muted />
                                             </div>
@@ -52,12 +52,12 @@ const Projects = () => {
                                     </div>
 
                                     <div className="homeDivMid">
-                                        <NavLink to="/hobbies">
+                                        <NavLink to="/arduino">
                                             <div className="homeDivInner">
                                                 <div className="projectsTechnologiesUsed">
                                                     <span className="boldTxt">Arduino Heater</span>
-                                                    <img src={cplusplusLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
-                                                    <img src={arduinoLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
+                                                    <img src={cplusplusLogo} alt="projectsPhoto" className="technologiesUsedPhoto marginLeft"></img>
+                                                    <img src={arduinoLogo} alt="projectsPhoto" className="technologiesUsedPhoto "></img>
                                                 </div>
                                                 <img src={placeholderPhoto} alt="projectsPhoto" className="homePhotoFit"></img>
                                             </div>

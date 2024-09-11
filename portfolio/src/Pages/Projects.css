@@ -107,7 +107,7 @@
 .technologiesUsedPhoto{
     max-height: 1.7vmax;
     margin-top: 1vmax;
-    margin-left: 1vmax;
+    margin-right: 1vmax;
     object-fit: cover;
 
 
@@ -122,11 +122,13 @@
 .cplusplusPhoto {
     width: 4rem;
 }
-
+.marginLeft{
+    margin-left: 1vmax;
+}
 
 
 
 @media screen and (max-width:1050px) {
     .helloText{white-space: break-spaces;}
+    .technologiesUsedPhoto{max-height: 3vmax;}
 }
-
