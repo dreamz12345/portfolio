@@ -46,6 +46,12 @@ li {
     border-radius: 1vmax;
 }
 
-@media screen and (max-width:1050px) {
+@media screen and (max-width:1000px) {
     .pageContent{max-width: 90vw;}
 }
+
+
+@media screen and (min-width:1000px) {
+    li{margin-top: 0.5vmax;}
+}
+

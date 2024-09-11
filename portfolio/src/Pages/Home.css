@@ -195,4 +195,8 @@
     .helloText{white-space: break-spaces;}
 }
 
-
+@media screen and (min-width:1050px) {
+    .homePhoto{width: 30vmax; height: 30vmax;}
+    .homePhotoTxt{width: 30vmax; height: 30vmax; font-size: 1.3vmax;}
+    .homePhotoFit{width: 30vmax; height: 30vmax;}
+}

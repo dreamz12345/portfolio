@@ -74,8 +74,22 @@ const Home = () => {
                                 </NavLink>
                             </div>
 
-
-
+                            <div className="homeDivMid">
+                                <NavLink to="/projects">
+                                    <div className="homeDivInner">
+                                        <span className="boldTxt">Contact</span>
+                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
+                                    </div>
+                                </NavLink>
+                            </div>
+                            <div className="homeDivMid">
+                                <NavLink to="/projects">
+                                    <div className="homeDivInner">
+                                        <span className="boldTxt">Contact</span>
+                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
+                                    </div>
+                                </NavLink>
+                            </div>
 
                         </div>
 

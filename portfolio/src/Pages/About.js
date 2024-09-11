@@ -36,7 +36,7 @@ const About = () => {
                             <li className="thinTxt"><text className="midTxt">Commitment to quality: </text>I always try to find the best possible solutions before I start to code.</li>
                             <li className="thinTxt"><text className="midTxt">Creating with future in mind: </text>I believe that <a href={docs_link} className="aboutLinkText"> documentation</a> and good code design is very important to make sure my code can be understandable and reusable in the future. </li>
                             <li className="thinTxt"><text className="midTxt">Version control software: </text>I use <a href={my_github_page} className="aboutLinkText">GitHub </a> and GitKraken.</li>
-                            <li className="thinTxt"><text className="midTxt">Tests: </text>I can write simple tests for my code in UnitTests na Pytest libraries.</li>
+                            <li className="thinTxt"><text className="midTxt">Tests: </text>I can write simple tests for my code with UnitTests and Pytest libraries.</li>
                             <li className="thinTxt"><text className="midTxt">Wide range of interests: </text>3D modeling, 2D digital art, composition, color theory and more.</li>
                             <li className="thinTxt"><text className="midTxt">Language: </text>Polish and English.</li>
                         </ul>

@@ -67,3 +67,15 @@
     margin: 1vmax;
 
 }
+
+
+@media screen and (min-width:1050px) {
+    .aboutTitleText{font-size: 1.8vmax;}
+    .aboutLinkText{font-size: 1.2vmax;}
+    .titleTxt{font-size: 1.5vmax;}
+    .boldTxt{font-size: 1.4vmax;}
+    .midTxt{font-size: 1.2vmax;}
+    .thinTxt{font-size: 1.15vmax;}
+    .aboutPortraitPhoto{width: 30%;}
+}
+
