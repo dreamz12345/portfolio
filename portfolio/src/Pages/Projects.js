@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import ScrollToTop from "../Components/scrollToTop";
 import "./Projects.css";
 import "./About.css";
-import pongSquare from "../Assets/pong_square_size.jpg";
+//import pongSquare from "../Assets/pong_square_size.jpg";
 import pythonLogo from "../Assets/python-logo-only.png";
 import arduinoLogo from "../Assets/arduino-logo.png";
 import cplusplusLogo from "../Assets/c++-logo.png";
