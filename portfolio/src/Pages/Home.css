@@ -147,6 +147,28 @@
     color: rgb(220, 220, 220);
 }
 
+
+.homePhotoMail {
+    background: rgb(18, 18, 23);
+    width: 33vmax;
+    height: 33vmax;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    object-fit: cover;
+    border: 0.14vmax solid cornflowerblue;
+    border-radius: 2vmax;
+    margin-top: 1rem;
+
+    font-size: 12vmax;
+    font-weight: 600;
+    color: rgb(220, 220, 220);
+}
+
+.homeBigFont{
+    font-size: 5vmax;
+}
+
 .homePhoto {
 
     width: 33vmax;
@@ -198,5 +220,6 @@
 @media screen and (min-width:1050px) {
     .homePhoto{width: 30vmax; height: 30vmax;}
     .homePhotoTxt{width: 30vmax; height: 30vmax; font-size: 1.3vmax;}
+    .homePhotoMail{width: 30vmax; height: 30vmax; font-size: 12vmax;}
     .homePhotoFit{width: 30vmax; height: 30vmax;}
 }

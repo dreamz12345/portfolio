@@ -8,9 +8,13 @@ import myPhoto from "../Assets/placeholder_portrait4.png";
 import pongVideo from "../Assets/pong_animation0000-0120.mp4"
 import renderPhoto from "../Assets/TT-SU2_700_samples_transparen_background.png";
 import { NavLink } from "react-router-dom";
+import { useDocumentTitle } from "../Components/Hooks/changeTitle";
+
 
 
 const Home = () => {
+    useDocumentTitle("Home")
+
     return (
         <div className="page">
                 <ScrollToTop/>
@@ -40,7 +44,7 @@ const Home = () => {
                                 <NavLink to="/about">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">About Me</span>
-                                        <span className="homePhotoTxt">Click here to learn more about me.</span>
+                                        <span className="homePhotoMail material-symbols-outlined">Assignment</span>
                               
                                     </div>
                                 </NavLink>
@@ -66,30 +70,14 @@ const Home = () => {
 
 
                             <div className="homeDivMid">
-                                <NavLink to="/projects">
+                                <NavLink to="/contact">
                                     <div className="homeDivInner">
                                         <span className="boldTxt">Contact</span>
-                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
+                                        <span className="homePhotoMail material-symbols-outlined">Mail</span>
                                     </div>
                                 </NavLink>
                             </div>
 
-                            <div className="homeDivMid">
-                                <NavLink to="/projects">
-                                    <div className="homeDivInner">
-                                        <span className="boldTxt">Contact</span>
-                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
-                                    </div>
-                                </NavLink>
-                            </div>
-                            <div className="homeDivMid">
-                                <NavLink to="/projects">
-                                    <div className="homeDivInner">
-                                        <span className="boldTxt">Contact</span>
-                                        <video src={pongVideo} alt="projectsPhoto" className="homePhoto" video loop autoPlay muted />
-                                    </div>
-                                </NavLink>
-                            </div>
 
                         </div>
 

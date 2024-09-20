@@ -18,7 +18,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/arduino" element={<Arduino />} />
+          <Route path="/projects/arduino" element={<Arduino />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </HashRouter>

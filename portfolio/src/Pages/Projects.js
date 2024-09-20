@@ -11,10 +11,12 @@ import GitHubLogo from "../Assets/GitHub_Logo_White.png"
 import pongVideo from "../Assets/pong_animation0000-0120.mp4"
 import placeholderPhoto from "../Assets/myPhoto.jpg";
 import { NavLink } from "react-router-dom";
-
+import { useDocumentTitle } from "../Components/Hooks/changeTitle";
 
 
 const Projects = () => {
+
+    useDocumentTitle("Projects")
 
     var github_link = "https://github.com/dreamz12345/"
 
@@ -52,7 +54,7 @@ const Projects = () => {
                                     </div>
 
                                     <div className="homeDivMid">
-                                        <NavLink to="/arduino">
+                                        <NavLink to="/projects/arduino">
                                             <div className="homeDivInner">
                                                 <div className="projectsTechnologiesUsed">
                                                     <span className="boldTxt">Arduino Heater</span>

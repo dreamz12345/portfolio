@@ -6,8 +6,13 @@ import HOD from "../Assets/HOD_3000.png";
 import IDME from "../Assets/IDME_2000.png";
 import trkMEplus from "../Assets/trkME+.png";
 import "./About.css";
+import { useDocumentTitle } from "../Components/Hooks/changeTitle";
+
 
 const Hobbies = () => {
+    useDocumentTitle("Hobbies")
+
+    
     return (
         <div className="page">
                 <ScrollToTop/>

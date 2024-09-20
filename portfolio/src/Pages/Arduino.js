@@ -7,7 +7,7 @@ import cplusplusLogo from "../Assets/c++-logo.png";
 import "./About.css";
 import placeholderPhoto from "../Assets/myPhoto.jpg";
 import "./Projects.css";
-
+import { useDocumentTitle } from "../Components/Hooks/changeTitle";
 
 
 const About = () => {
@@ -16,6 +16,8 @@ const About = () => {
     var react_projects = "https://github.com/dreamz12345/portfolio";
     var docs_link = "https://github.com/dreamz12345/Python-Projects/blob/main/15%20-%20Coffee%20Machine/main.py";
     var my_github_page = "https://github.com/dreamz12345";
+
+    useDocumentTitle("Arduino Project")
     return (
         <div className="page">
             <ScrollToTop/>

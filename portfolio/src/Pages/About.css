@@ -65,6 +65,9 @@
     width: 50%;
     max-width: 40%;
     margin: 1vmax;
+    background: rgb(18, 18, 23);
+    border-radius: 100%;
+    border: 0.14vmax cornflowerblue solid;
 
 }
 

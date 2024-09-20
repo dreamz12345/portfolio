@@ -3,8 +3,12 @@ import Footer from "../Components/Footer/Footer";
 import ScrollToTop from "../Components/scrollToTop";
 import placeholder_portrait from "./../Assets/placeholder_portrait4.png"
 import "./About.css";
+import { useDocumentTitle } from "../Components/Hooks/changeTitle";
 
 const About = () => {
+    useDocumentTitle("About Me")
+
+
     var python_projects = "https://github.com/dreamz12345/Python-Projects";
     var c_projects = "https://github.com/dreamz12345/Arduino-Heater";
     var react_projects = "https://github.com/dreamz12345/portfolio";
