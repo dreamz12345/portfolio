@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar/Navbar";
 import ScrollToTop from "../Components/scrollToTop";
 import "./Home.css";
 import "./Projects.css";
-import myPhoto from "../Assets/placeholder_portrait4.png";
+import myPhoto from "../Assets/moj_portret.png";
 import pythonLogo from "../Assets/python-logo-only.png";
 import reactLogo from "../Assets/React-icon.svg.png";
 import pongVideo from "../Assets/pong_animation0000-0120.mp4"

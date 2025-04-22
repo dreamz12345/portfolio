@@ -1,19 +1,19 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import ScrollToTop from "../Components/scrollToTop";
-import placeholder_portrait from "./../Assets/placeholder_portrait4.png"
+import placeholder_portrait from "./../Assets/moj_portret.png"
 import "./About.css";
 import { useDocumentTitle } from "../Components/Hooks/changeTitle";
 
 const About = () => {
     useDocumentTitle("About Me")
 
-
     var python_projects = "https://github.com/dreamz12345/Python-Projects";
     var c_projects = "https://github.com/dreamz12345/Arduino-Heater";
     var react_projects = "https://github.com/dreamz12345/portfolio";
     var docs_link = "https://github.com/dreamz12345/Python-Projects/blob/main/15%20-%20Coffee%20Machine/main.py";
     var my_github_page = "https://github.com/dreamz12345";
+
     return (
         <div className="page">
             <ScrollToTop/>
@@ -31,7 +31,6 @@ const About = () => {
                         </div>
                     </div>
                     
-
                     <div className="aboutMidDiv">
                         <span className="aboutTitleText">Skills</span>
                         <span className="boldTxt">Hard Skills:</span>
@@ -69,9 +68,7 @@ const About = () => {
                         </ul>
                     </div>
 
-                    <div className="aboutBotDiv">
-                        
-                    </div>
+                    <div className="aboutBotDiv"></div>
 
                 </div>
             </div>
