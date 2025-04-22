@@ -5,6 +5,7 @@ import Contact from "../src/Pages/Contact"
 import Hobbies from "../src/Pages/Hobbies"
 import Projects from "../src/Pages/Projects"
 import Arduino from "../src/Pages/Arduino"
+import Pong from "../src/Pages/Pong"
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/arduino" element={<Arduino />} />
+          <Route path="/projects/pong" element={<Pong />} />
           <Route path="*" element={<Home />} />
         </Routes>
       </HashRouter>

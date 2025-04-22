@@ -42,7 +42,7 @@ const Projects = () => {
                                 </div>
 
                                     <div className="homeDivMid">
-                                        <NavLink to="/projects">
+                                        <NavLink to="/projects/pong">
                                             <div className="homeDivInner">
                                                 <div className="projectsTechnologiesUsed">
                                                 <span className="boldTxt">Pong</span>
