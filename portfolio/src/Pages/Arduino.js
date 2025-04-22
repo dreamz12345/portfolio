@@ -1,7 +1,6 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import ScrollToTop from "../Components/scrollToTop";
-//import placeholder_portrait from "./../Assets/placeholder_portrait4.png"
 import arduinoLogo from "../Assets/arduino-logo.png";
 import cplusplusLogo from "../Assets/c++-logo.png";
 import "./About.css";
@@ -25,31 +24,23 @@ const About = () => {
                 <Navbar />
                 <div className="pageContent">
 
-
-                <div className="aboutMidDiv">
-                                <span className="aboutTitleText">Arduino Heater Controller</span>
-
-                                                <div className="projectsTechnologiesUsed">
-                                                    <img src={cplusplusLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
-                                                    <img src={arduinoLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
-                                                </div>
-
+                    <div className="aboutMidDiv">
+                        <span className="aboutTitleText">Arduino Heater Controller</span>
+                            <div className="projectsTechnologiesUsed">
+                                <img src={cplusplusLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
+                                <img src={arduinoLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
                             </div>
+                        </div>
 
-                <div className="homeDivOuter">
-                <div className="homeDivMid">
-                                      
-                                            <div className="homeDivInner">
-
-                                                <img src={placeholderPhoto} alt="projectsPhoto" className="homePhotoFit"></img>
-                                            </div>
-                                   
-                                    </div>
-                                    </div>
+                    <div className="homeDivOuter">
+                        <div className="homeDivMid">                  
+                            <div className="homeDivInner">
+                                <img src={placeholderPhoto} alt="projectsPhoto" className="homePhotoFit"></img>
+                            </div>
+                        </div>
+                    </div>
 
                     <div className="aboutMidDiv">
-
-
                         <span className="boldTxt">Hard Skills:</span>
                         <ul>
                             <li className="thinTxt"><text className="midTxt">Programming: </text>Mainly <a href={python_projects} className="aboutLinkText">Python</a> but also a little bit of <a href={c_projects} className="aboutLinkText"> C++</a> and <a href={react_projects} className="aboutLinkText"> React JSX</a></li>
@@ -60,6 +51,7 @@ const About = () => {
                             <li className="thinTxt"><text className="midTxt">Wide range of interests: </text>3D modeling, 2D digital art, composition, color theory and more.</li>
                             <li className="thinTxt"><text className="midTxt">Language: </text>Polish and English.</li>
                         </ul>
+
                         <span className="boldTxt">Soft Skills:</span>
                         <ul>
                             <li className="thinTxt"><text className="midTxt">Curiosity: </text>Being curious person allows me to discover new solutions fast.</li>
@@ -85,9 +77,7 @@ const About = () => {
                         </ul>
                     </div>
 
-                    <div className="aboutBotDiv">
-                        
-                    </div>
+                    <div className="aboutBotDiv"></div>
 
                 </div>
             </div>
