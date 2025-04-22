@@ -1,9 +1,11 @@
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
 import ScrollToTop from "../Components/scrollToTop";
-import placeholder_portrait from "./../Assets/moj_portret.png"
+import myPhoto from "./../Assets/moj_portret.png"
 import "./About.css";
 import { useDocumentTitle } from "../Components/Hooks/changeTitle";
+import pythonLogo from "../Assets/python-logo-only.png";
+import reactLogo from "../Assets/React-icon.svg.png";
 
 const About = () => {
     useDocumentTitle("About Me")
@@ -21,15 +23,19 @@ const About = () => {
                 <Navbar />
                 <div className="pageContent">
                     
-                    <div className="aboutTopDiv">
-                        <img className="aboutPortraitPhoto" alt="My Portrait" src={placeholder_portrait}></img>
-                        <div className="aboutTopText">
-                            <span className="thinTxt">My name is <span className="boldTxt">Łukasz Spychała.</span></span>
-                            <span className="thinTxt">I'm aspiring <span className="boldTxt">software developer</span></span>
-                            <span className="thinTxt">with a goal of delivering <span className="boldTxt">high quality code</span></span>
-                            <span className="thinTxt">with <span className="boldTxt">full documentation.</span></span>
-                        </div>
-                    </div>
+                            <div className="aboutTopDiv">
+                                <img className="aboutPortraitPhoto" alt="My Portrait" src={myPhoto}></img>
+                                <div className="aboutTopText">
+                                    <span className="thinTxt">My name is <span className="boldTxt">Łukasz Spychała.</span></span>
+                                    <span className="thinTxt">I'm aspiring <span className="boldTxt">software developer</span></span>
+                                    <span className="thinTxt">with a goal of delivering <span className="boldTxt">high quality code</span></span>
+                                    <span className="thinTxt">with <span className="boldTxt">full documentation.</span></span>
+                                    <div className="projectsTechnologiesUsed">
+                                        <img src={pythonLogo} alt="projectsPhoto" className="technologiesUsedPhoto"></img>
+                                        <img src={reactLogo} alt="reactLogo" className="technologiesUsedPhoto"></img>
+                                    </div>
+                                </div>
+                            </div>
                     
                     <div className="aboutMidDiv">
                         <span className="aboutTitleText">Skills</span>
