@@ -60,9 +60,9 @@ const Home = () => {
                             </div>
 
                             <div className="homeDivMid">
-                                <NavLink to="/hobbies">
+                                <NavLink to="/other">
                                     <div className="homeDivInner">
-                                        <span className="boldTxt">Hobbies</span>
+                                        <span className="boldTxt">Other</span>
                                         <img src={renderPhoto} alt="projectsPhoto" className="homePhoto"></img>
                                     </div>
                                 </NavLink>

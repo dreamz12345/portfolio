@@ -2,7 +2,7 @@ import { HashRouter, Routes, Route} from "react-router-dom"
 import Home from "../src/Pages/Home"
 import About from "../src/Pages/About"
 import Contact from "../src/Pages/Contact"
-import Hobbies from "../src/Pages/Hobbies"
+import Other from "./Pages/Other"
 import Projects from "../src/Pages/Projects"
 import Arduino from "../src/Pages/Arduino"
 import Pong from "../src/Pages/Pong"
@@ -17,7 +17,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/hobbies" element={<Hobbies />} />
+          <Route path="/other" element={<Other />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/arduino" element={<Arduino />} />
           <Route path="/projects/pong" element={<Pong />} />
