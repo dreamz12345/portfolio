@@ -12,15 +12,18 @@ body{
     overflow: hidden;
     overflow-y: auto;
     background: rgb(18, 18, 23);
-
+    -webkit-tap-highlight-color: transparent;
 
 }
+
+
 
 .page{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+
 
 }
 

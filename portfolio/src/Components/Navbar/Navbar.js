@@ -29,11 +29,13 @@ const Navbar = () => {
                         <i className="material-symbols-outlined burgerButton">menu</i></button>
                     <div className={showBurgerMenu ? "mobileMenuVisible": "mobileMenuInvisible"}>
                         <div className="mobileMenuTriangle"></div>
-                        <NavLink to="/" className="mobileMenuNavLink">Home</NavLink>
-                        <NavLink to="/about" className="mobileMenuNavLink">About Me</NavLink>
-                        <NavLink to="/projects" className="mobileMenuNavLink">Projects</NavLink>
-                        <NavLink to="/other" className="mobileMenuNavLink">Other</NavLink>
-                        <NavLink to="/contact" className="mobileMenuNavLink">Contact</NavLink>
+                        <div className="mobileMenuBox">
+                            <NavLink to="/" className="mobileMenuNavLink">Home</NavLink>
+                            <NavLink to="/about" className="mobileMenuNavLink">About Me</NavLink>
+                            <NavLink to="/projects" className="mobileMenuNavLink">Projects</NavLink>
+                            <NavLink to="/other" className="mobileMenuNavLink">Other</NavLink>
+                            <NavLink to="/contact" className="mobileMenuNavLink">Contact</NavLink>
+                        </div>
                     </div>
                 </div>
             </div>

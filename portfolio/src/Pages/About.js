@@ -1,6 +1,7 @@
 import { useDocumentTitle } from "../Components/Hooks/changeTitle";
 
 import "./About.css";
+import "./Projects/Projects.css";
 
 import myPhoto from "./../Assets/moj_portret.png"
 import pythonLogo from "../Assets/python-logo-only.png";

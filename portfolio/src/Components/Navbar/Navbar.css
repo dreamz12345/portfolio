@@ -65,6 +65,7 @@
     cursor: pointer;
     color: white;
     margin: 0 0.5rem;
+
 }
 
 .active.desktopMenuNavLink {
@@ -92,6 +93,7 @@
     padding: 5px;
     text-align: center;
     background-color: rgb(27, 27, 31);
+
 
 }
 
@@ -130,10 +132,13 @@
     color: white;
     border-radius: 0.75rem;
     background-size: contain;
-    border: 0.2vmax solid cornflowerblue;
+    outline: 0.2vmax solid cornflowerblue;
+    outline-offset: -0.2vmax;
 }
 
-
+.mobileMenuBox{
+    display: grid;
+}
 
 
 .mobileMenuInvisible {
@@ -143,6 +148,7 @@
 
 .mobileMenu {
     display: none;
+
 }
 
 @media screen and (max-width:1050px) {
