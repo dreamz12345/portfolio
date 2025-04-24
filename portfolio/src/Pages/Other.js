@@ -1,6 +1,5 @@
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
-import ScrollToTop from "../Components/scrollToTop";
+
+
 import renderPhoto from "../Assets/TT-SU2_700_samples_transparen_background.png";
 import HOD from "../Assets/HOD_3000.png";
 import IDME from "../Assets/IDME_2000.png";
@@ -9,15 +8,14 @@ import "./About.css";
 import { useDocumentTitle } from "../Components/Hooks/changeTitle";
 
 
-const Hobbies = () => {
+const Other = () => {
     useDocumentTitle("Other")
 
     
     return (
         <div className="page">
-                <ScrollToTop/>
             <div className="pageAboveFooter">
-                <Navbar />
+
                 <div className="pageContent">
 
                     <div className="aboutMidDiv">
@@ -54,11 +52,11 @@ const Hobbies = () => {
                     </div>
 
                 </div>
-                <Footer />
             </div>
+
         </div>
     )
 }
 
 
-export default Hobbies;
+export default Other;

@@ -1,12 +1,11 @@
-import Navbar from "../Components/Navbar/Navbar";
-import Footer from "../Components/Footer/Footer";
-import ScrollToTop from "../Components/scrollToTop";
+import { useDocumentTitle } from "../Components/Hooks/changeTitle";
+
+import "./About.css";
+import "./Projects/Projects.css";
+
 import arduinoLogo from "../Assets/arduino-logo.png";
 import cplusplusLogo from "../Assets/c++-logo.png";
-import "./About.css";
 import placeholderPhoto from "../Assets/myPhoto.jpg";
-import "./Projects.css";
-import { useDocumentTitle } from "../Components/Hooks/changeTitle";
 
 
 const About = () => {
@@ -19,9 +18,9 @@ const About = () => {
     useDocumentTitle("Arduino Project")
     return (
         <div className="page">
-            <ScrollToTop/>
+
             <div className="pageAboveFooter">
-                <Navbar />
+
                 <div className="pageContent">
 
                     <div className="aboutMidDiv">
@@ -81,7 +80,7 @@ const About = () => {
 
                 </div>
             </div>
-            <Footer />
+
         </div>
     )
 }
