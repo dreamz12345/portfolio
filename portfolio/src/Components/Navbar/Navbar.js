@@ -26,7 +26,7 @@ const Navbar = () => {
 
                 <div className="mobileMenu">
                     <button className="openMobileMenuButton" onClick={() => setShowBurgerMenu(!showBurgerMenu)}>
-                        <i className="material-symbols-outlined">menu</i></button>
+                        <i className="material-symbols-outlined burgerButton">menu</i></button>
                     <div className={showBurgerMenu ? "mobileMenuVisible": "mobileMenuInvisible"}>
                         <div className="mobileMenuTriangle"></div>
                         <NavLink to="/" className="mobileMenuNavLink">Home</NavLink>

@@ -35,8 +35,12 @@
     z-index: 5;
 }
 
-.material-symbols-outlined {
+.burgerButton {
     font-size: 3rem;
+}
+
+.material-symbols-outlined {
+
     overflow-y: hidden;
     color: white;
 }

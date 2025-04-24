@@ -44,7 +44,8 @@ const Home = () => {
                                 <NavLink to="/about">
                                     <div className="homeDivInner">
                                         <text className="boldTxt">About Me</text>
-                                        <text className="homePhotoMail material-symbols-outlined">Assignment</text>
+                                        
+                                        <div className="pulse"><span className="material-symbols-outlined homePhotoMail">Assignment</span></div>
                                     </div>
                                 </NavLink>
                             </div>
@@ -71,7 +72,7 @@ const Home = () => {
                                 <NavLink to="/contact">
                                     <div className="homeDivInner">
                                         <text className="boldTxt">Contact</text>
-                                        <text className="homePhotoMail material-symbols-outlined">Mail</text>
+                                        <div className="pulse"><span className="material-symbols-outlined homePhotoMail">Mail</span></div>
                                     </div>
                                 </NavLink>
                             </div>
