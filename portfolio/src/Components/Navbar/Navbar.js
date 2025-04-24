@@ -30,11 +30,11 @@ const Navbar = () => {
                     <div className={showBurgerMenu ? "mobileMenuVisible": "mobileMenuInvisible"}>
                         <div className="mobileMenuTriangle"></div>
                         <div className="mobileMenuBox">
-                            <NavLink to="/" className="mobileMenuNavLink">Home</NavLink>
-                            <NavLink to="/about" className="mobileMenuNavLink">About Me</NavLink>
-                            <NavLink to="/projects" className="mobileMenuNavLink">Projects</NavLink>
-                            <NavLink to="/other" className="mobileMenuNavLink">Other</NavLink>
-                            <NavLink to="/contact" className="mobileMenuNavLink">Contact</NavLink>
+                            <NavLink to="/" className="mobileMenuNavLink" onClick={() => setShowBurgerMenu(false)}>Home</NavLink>
+                            <NavLink to="/about" className="mobileMenuNavLink" onClick={() => setShowBurgerMenu(false)}>About Me</NavLink>
+                            <NavLink to="/projects" className="mobileMenuNavLink" onClick={() => setShowBurgerMenu(false)}>Projects</NavLink>
+                            <NavLink to="/other" className="mobileMenuNavLink" onClick={() => setShowBurgerMenu(false)}>Other</NavLink>
+                            <NavLink to="/contact" className="mobileMenuNavLink" onClick={() => setShowBurgerMenu(false)}>Contact</NavLink>
                         </div>
                     </div>
                 </div>
