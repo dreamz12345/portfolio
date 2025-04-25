@@ -17,11 +17,11 @@ const Navbar = () => {
                 </NavLink>
     
                 <div className="desktopMenu">
-                    <NavLink to="/" className="desktopMenuNavLink">Home</NavLink>
-                    <NavLink to="/projects" className="desktopMenuNavLink">Projects</NavLink>
-                    <NavLink to="/about" className="desktopMenuNavLink">About Me</NavLink>
-                    <NavLink to="/other" className="desktopMenuNavLink">Other</NavLink>
-                    <NavLink to="/contact" className="desktopMenuNavLink">Contact</NavLink>
+                    <NavLink to="/" className="desktopMenuNavLink button button2"><span>Home</span></NavLink>
+                    <NavLink to="/projects" className="desktopMenuNavLink button"><span>Projects</span></NavLink>
+                    <NavLink to="/about" className="desktopMenuNavLink button"><span>About Me</span></NavLink>
+                    <NavLink to="/other" className="desktopMenuNavLink button"><span>Other</span></NavLink>
+                    <NavLink to="/contact" className="desktopMenuNavLink button"><span>Contact</span></NavLink>
                 </div>
 
                 <div className="mobileMenu">

@@ -4,15 +4,17 @@
     box-sizing: border-box;
     text-decoration: none;
     background: transparent;
+
 }
 
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Numans', sans-serif;
     color: white;
     overflow: hidden;
     overflow-y: auto;
     background: rgb(18, 18, 23);
     -webkit-tap-highlight-color: transparent;
+
 
 }
 

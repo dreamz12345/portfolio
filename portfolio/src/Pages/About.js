@@ -22,7 +22,7 @@ const About = () => {
 
                 <div className="pageContent">
                     
-                            <div className="aboutTopDiv">
+                            <div className="greetingDiv">
                                 <img className="aboutPortraitPhoto" alt="My Portrait" src={myPhoto}></img>
                                 <div className="aboutTopText">
                                     <text className="thinTxt">My name is <text className="boldTxt">Łukasz Spychała.</text></text>

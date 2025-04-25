@@ -23,7 +23,7 @@ const Home = () => {
 
                     <div className="homeLinksDiv">
                         <NavLink to={"/about"} className="homeLink">
-                            <div className="aboutTopDiv">
+                            <div className="greetingDiv">
                                 <img className="aboutPortraitPhoto" alt="My Portrait" src={myPhoto}></img>
                                 <div className="aboutTopText">
                                     <text className="thinTxt">My name is <text className="boldTxt">Łukasz Spychała.</text></text>

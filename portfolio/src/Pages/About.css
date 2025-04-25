@@ -1,7 +1,7 @@
 
 
 .aboutTopDiv {
-    display: flex;
+    display:grid;
     justify-content: center;
     padding: 1vmax;
 
@@ -62,11 +62,12 @@
 
 
 .aboutPortraitPhoto {
-    width: 50%;
-    max-width: 40%;
+    width: 20vmax;
+    height: 20vmax;
+    object-fit:contain;
     margin: 1vmax;
     background: rgb(18, 18, 23);
-    border-radius: 100%;
+    border-radius: 50%;
     border: 0.14vmax cornflowerblue solid;
 
 }
@@ -79,6 +80,6 @@
     .boldTxt{font-size: 1.4vmax;}
     .midTxt{font-size: 1.2vmax;}
     .thinTxt{font-size: 1.15vmax;}
-    .aboutPortraitPhoto{width: 30%;}
+    .aboutPortraitPhoto{width: 20vmax; height: 20vmax;}
 }
 
